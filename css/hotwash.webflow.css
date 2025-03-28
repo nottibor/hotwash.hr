@@ -2410,8 +2410,7 @@ figcaption {
 }
 
 .layout374_card-small {
-  border: 1.5px solid var(--color-scheme-1--border);
-  border-radius: 1rem;
+  border: 1px solid var(--color-scheme-1--border);
   flex-direction: column;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -2457,8 +2456,7 @@ figcaption {
 }
 
 .layout374_card-large {
-  border: 1.5px solid var(--color-scheme-1--border);
-  border-radius: 1rem;
+  border: 1px solid var(--color-scheme-1--border);
   flex-direction: column;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -2532,7 +2530,6 @@ figcaption {
 .gallery10_image2, .gallery10_image7 {
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 1rem;
   width: 100%;
   height: 100%;
 }
@@ -2540,7 +2537,6 @@ figcaption {
 .gallery10_image3 {
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 1rem;
   width: 100%;
   height: 100%;
 }
@@ -2553,31 +2549,20 @@ figcaption {
 .gallery10_image4 {
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 1rem;
   width: 100%;
   height: 100%;
 }
 
 .gallery10_image-wrapper {
   background-color: var(--_primitives---opacity--neutral-darkest-15);
-  border-radius: 1rem;
   width: 100%;
   padding: .35rem;
   overflow: hidden;
 }
 
-.gallery10_image1 {
+.gallery10_image1, .gallery10_image6, .gallery10_image5 {
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: .7rem;
-  width: 100%;
-  height: 100%;
-}
-
-.gallery10_image6, .gallery10_image5 {
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 1rem;
   width: 100%;
   height: 100%;
 }
