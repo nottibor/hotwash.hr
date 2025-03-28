@@ -787,7 +787,6 @@ figcaption {
   background-color: var(--color-scheme-1--faded-yellow);
   color: var(--color-scheme-1--text);
   text-align: center;
-  border-radius: .5rem;
   padding: .5rem 1.5rem;
   line-height: 1.6;
   text-decoration: none;
@@ -829,7 +828,7 @@ figcaption {
   border-color: var(--color-scheme-1--border);
   background-color: var(--color-scheme-1--dark-yellow);
   color: var(--color-scheme-1--text);
-  border-radius: .5rem;
+  border-radius: 0;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
@@ -1009,7 +1008,6 @@ figcaption {
   border: 1px solid var(--color-scheme-1--border);
   background-color: var(--_primitives---colors--white);
   color: var(--color-scheme-1--text);
-  border-radius: .5rem;
   height: auto;
   min-height: 2.75rem;
   margin-bottom: 0;
@@ -1440,7 +1438,6 @@ figcaption {
 .padding-section-large.special-for-contact-section {
   border: 1px solid var(--color-scheme-1--border);
   background-color: var(--color-scheme-1--foreground);
-  border-radius: 1rem;
 }
 
 .spacer-tiny {
