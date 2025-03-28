@@ -4515,12 +4515,6 @@ figcaption {
 
   .button.newsletter-signup-special {
     border-left-style: solid;
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
-  }
-
-  .form_input.flat-right-corner {
-    border-radius: .5rem;
   }
 
   .rl-styleguide_component {
