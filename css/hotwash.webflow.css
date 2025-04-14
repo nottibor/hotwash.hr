@@ -3476,12 +3476,16 @@ figcaption {
   display: none;
 }
 
-.phone-button-sticky {
+.button-sticky {
   background-color: var(--_primitives---colors--white);
   border: 1px solid #000;
   border-radius: 0;
   position: fixed;
   inset: auto .5rem .5rem auto;
+}
+
+.button-sticky.instagram {
+  margin-right: 4rem;
 }
 
 .navbar-no-shadow-container {
@@ -3704,6 +3708,10 @@ figcaption {
   overflow: hidden;
 }
 
+.pricing18_plan.popular {
+  background-color: var(--color-scheme-1--faded-yellow);
+}
+
 .heading-style-h6-2 {
   font-size: 1.25rem;
   font-weight: 700;
@@ -3724,6 +3732,14 @@ figcaption {
 
 .pricing18_feature {
   display: flex;
+}
+
+.div-block {
+  margin-bottom: .5rem;
+  margin-right: 5rem;
+  padding: .5rem;
+  position: fixed;
+  inset: auto 0% 0% auto;
 }
 
 @media screen and (min-width: 1920px) {
